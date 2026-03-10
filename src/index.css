@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-image: radial-gradient(#fbbf24 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  background-color: #fffbf0;
+}
