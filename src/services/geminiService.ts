@@ -17,7 +17,7 @@ export async function optimizeResume(
   companyName?: string,
   generateCoverLetter: boolean = false
 ): Promise<OptimizationResult> {
-  const model = "gemini-3.1-pro-preview";
+  const model = "gemini-3-flash-preview";
   
   const prompt = `
     You are an expert career coach and ATS (Applicant Tracking System) specialist.
